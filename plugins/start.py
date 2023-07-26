@@ -15,15 +15,15 @@ from helper.database import daily as daily_
 from helper.date import check_expi
 import os
 
-CHANNEL = os.environ.get('CHANNEL', "")
-STRING = os.environ.get("STRING", "")
-ADMIN = int(os.environ.get("ADMIN", ""))
-bot_username = os.environ.get("BOT_USERNAME","")
-log_channel = int(os.environ.get("LOG_CHANNEL", ""))
-token = os.environ.get('TOKEN', '')
+CHANNEL = os.environ.get('CHANNEL', "-1001543295404")
+STRING = os.environ.get("STRING", "BQFPPzoAXoiiPd0cWdJ4k4M-vLUFTa63H4pHujHOYXvjXlK9oFTBoBwo6ilxuP7DmJ2TqpuPOkxCZMvK7MhIJQr-BBu3wGSweOGEXcI972OZ-iilInB1WKGVM8yzfCG2ce-Zu44i4yDLEQgguC1wYL8etbvKOYAKhnt-IRi8P9o-1v-saGHf37yZYcDtRwpCKvP6nw0ruQzJSs6L7Hh-cgZXqRTrWUU1RXJpO4AP-YDGSi8Kdsb9k3Uea3cxB0kkYv7YfHEEU_3HscxwEhEGz-9woTByJgomGETuNcv62o-QoBf_lUvq0J5iciBDxeNnLA-ogGPyweMfs7gEwP_J9SFCfu0p9gAAAAB2c6InAA")
+ADMIN = int(os.environ.get("ADMIN", "1987289639"))
+bot_username = os.environ.get("BOT_USERNAME","bamel_file_renamer_bot")
+log_channel = int(os.environ.get("LOG_CHANNEL", "-1001543295404"))
+token = os.environ.get('TOKEN', '5971971751:AAEJYE9EGQw7RvtLE1dluzSifgLEy-HlvL4')
 botid = token.split(':')[0]
 FLOOD = 500
-LAZY_PIC = os.environ.get("LAZY_PIC", "")
+LAZY_PIC = os.environ.get("LAZY_PIC", "https://te.legra.ph/file/46258597114f6a584afab.jpg")
 
 
 # Part of Day --------------------
